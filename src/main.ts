@@ -1,4 +1,4 @@
-import dep from "./dep.js";
+import dep from "./dep.ts";
 
 export default function main() {
   const result = `Hello, ESM! I am running in a module context. I use the return value of dep: ${dep()}`;

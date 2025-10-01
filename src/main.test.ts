@@ -1,6 +1,6 @@
 import { beforeEach, expect, test, vi } from "vitest";
-import main from "./main.js";
-import * as dep from "./dep.js";
+import main from "./main.ts";
+import * as dep from "./dep.ts";
 
 beforeEach(() => {
   vi.resetAllMocks();
